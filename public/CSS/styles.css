@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+    font-family: Roboto;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+p{
+    font-size: 12 px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 24 px;
+}
+
+.descuentos{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 16 px;
+}
+/* Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */
+
+.header {
+    background-color: #EAC926;
+}
+
+.header nav ul{
+    font-size: 12px;
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.informacion{
+    text-align: center;
+    font-size: 12 px;
+}
+.informacion i{
+    text-align: center;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px,0 0px, 20px, 0px; 
+}
+
+
