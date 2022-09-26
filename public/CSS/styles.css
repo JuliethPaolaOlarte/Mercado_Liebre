@@ -46,7 +46,6 @@ header img {
 .informacion p {
     width: 100%;
     text-align: center;
-    margin-top: 10px;
 }
 
 
@@ -78,6 +77,31 @@ Descripciones: 16px  */
     font-size: 12px;
     list-style-type: none;
     padding: 0;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navegacion li{
+    margin: 10px 10px 2px 10px;
+}
+
+.nav-1 ul{
+  display: flex;
+}
+
+.nav-2 ul{
+    display: flex;   
+}
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 a {
@@ -148,6 +172,7 @@ main section article {
     position: relative;
 }
 
+
 .productos img {
     width: 100%;
 }
@@ -170,13 +195,12 @@ h3,
     color: #666;
 }
 
-
-.precio-descuento {
+/* .precio-descuento{
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
-}
+} */
 
 .precio {
     width: 30%;
@@ -189,7 +213,6 @@ h3,
 }
 
 main section article i {
-    display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
@@ -202,6 +225,15 @@ main section article i {
     top: -15px;
     /* top: -15px; */
 }
+
+main section article i {
+    transition: transform 1s;
+}
+
+main section article i:hover{
+    transform: rotate(-90deg);
+}
+
 
 
 footer {
@@ -257,24 +289,59 @@ footer {
     .header nav ul {
         display: none;
     }
-
 }
 
 @media(min-width:361px) {
+
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section article{
+        width: 45%;
+    }
+
+    /* main section article .description:hover{
+        display: none;
+    }
+     */
+    .logo-barra{
+        width: 70%;
+    }
+
+    /* .navegacion ul li a{
+        font-size: 0.7rem;
+    } */
+
+    .informacion{
+        width: 40%;
+    }
+
+    .informacion p{
+        width: 100%;
+    }
+
+    /* .informacion p{ */
+        /* display: flex;
+        align-items: flex-start;
+        align-self: flex-start;
+    } */
+
     .header-superior{
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         padding: 1%;
+        align-items: center;
     }
 
     .informacion{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-        font-size: 2px;
+        align-items: flex-start;
+        margin-bottom: 5px;
     }
+
     /* .header-superior img{
         width:35%;
     }
@@ -291,10 +358,7 @@ footer {
         display: none;
     }
 
-    main section article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 45%;
-    }
+    
 
     .productos{
         justify-content: space-between;
@@ -302,9 +366,9 @@ footer {
         flex-wrap: wrap;
     }
 
-    .precio, .decuentos{
+    /* .precio, .decuentos{
         width: 50%;
-    }
+    } */
 }
 
 @media(min-width:769px){
@@ -312,4 +376,3 @@ footer {
         width: 22%;
     }
 }
-
