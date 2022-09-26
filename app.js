@@ -16,6 +16,10 @@ app.get("/register.html", function(req, res){
     res.sendFile(path.resolve(__dirname, "src/views/register.html"))
 });
 
+app.get("/cuenta.html", function(req, res){
+    res.sendFile(path.resolve(__dirname, "src/views/register.html"))
+});
+
 
 app.listen(process.env.PORT || 3000,() => (
     console.log("Servidor corriendo")))
