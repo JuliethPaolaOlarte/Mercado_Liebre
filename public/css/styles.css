@@ -172,6 +172,7 @@ main section article {
     position: relative;
 }
 
+
 .productos img {
     width: 100%;
 }
@@ -194,12 +195,12 @@ h3,
     color: #666;
 }
 
-.precio-descuento{
+/* .precio-descuento{
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
-}
+} */
 
 .precio {
     width: 30%;
@@ -224,6 +225,15 @@ main section article i {
     top: -15px;
     /* top: -15px; */
 }
+
+main section article i {
+    transition: transform 1s;
+}
+
+main section article i:hover{
+    transform: rotate(-90deg);
+}
+
 
 
 footer {
@@ -282,7 +292,19 @@ footer {
 }
 
 @media(min-width:361px) {
-    
+
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section article{
+        width: 45%;
+    }
+
+    /* main section article .description:hover{
+        display: none;
+    }
+     */
     .logo-barra{
         width: 70%;
     }
@@ -336,10 +358,7 @@ footer {
         display: none;
     }
 
-    main section article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 45%;
-    }
+    
 
     .productos{
         justify-content: space-between;
@@ -347,9 +366,9 @@ footer {
         flex-wrap: wrap;
     }
 
-    .precio, .decuentos{
+    /* .precio, .decuentos{
         width: 50%;
-    }
+    } */
 }
 
 @media(min-width:769px){
@@ -357,4 +376,3 @@ footer {
         width: 22%;
     }
 }
-
