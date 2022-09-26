@@ -304,6 +304,7 @@ footer {
     flex-direction: column;
     background-color: #ebebeb;
     padding: 10px;
+    color: #666;
 }
 
 .formulario input{
@@ -332,6 +333,7 @@ footer {
 
 .formulario-reg{
     text-align: center;
+    color: #666;
 }
 
 .formulario-reg h4{
@@ -350,6 +352,7 @@ footer {
     padding: 10px;
     margin: 5px;
     align-items: center;
+    color: #666;
 }
 
 .botones button{
