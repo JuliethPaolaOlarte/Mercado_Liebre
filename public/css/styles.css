@@ -70,11 +70,7 @@ h4 {
     font-size: 16 px;
 }
 
-/* Cuerpos de texto: 12px
-Titulares (Basado en tu última visita/Ofertas): 24px
-Precios: 18px
-Descuentos: 16px
-Descripciones: 16px  */
+
 
 .header {
     background-color: #EAC926;
@@ -128,14 +124,6 @@ a {
     text-align: center;
 }
 
-/* .navegacion{
-    display: flex;
-}
-
-.navegacion1 ul li a{
-    display: flex;
-    flex-direction: row;
-} */
 
 .burger-menu {
     text-align: center;
@@ -247,27 +235,6 @@ footer {
     background-color: white;
 }
 
-/* footer
-    text-align: center;
-    background-color: white;
-}
-
-.pie-de-pagina h3{
-    color: #666;
-    margin-bottom: 0px;
-}
-
-.pie-de-pagina p{
-    color: #B5B2B2;
-} */
-
-/* .iconos-footer i{
-    color: #1259c3;
-    /* width: 2em; */
-/* margin-bottom: 10px;
-    display: flex;
-    justify-content: end;
-} */
 
 .pie-de-pagina i {
     display: flex;
@@ -284,7 +251,6 @@ footer {
     color: #EAC926;;
 }
 
-/* .pie-de-pagina {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -430,17 +396,10 @@ footer {
         width: 45%;
     }
 
-    /* main section article .description:hover{
-        display: none;
-    }
-     */
     .logo-barra{
         width: 70%;
     }
 
-    /* .navegacion ul li a{
-        font-size: 0.7rem;
-    } */
 
     .informacion{
         width: 40%;
@@ -450,11 +409,6 @@ footer {
         width: 100%;
     }
 
-    /* .informacion p{ */
-        /* display: flex;
-        align-items: flex-start;
-        align-self: flex-start;
-    } */
 
     .header-superior{
         display: flex;
@@ -471,17 +425,6 @@ footer {
         margin-bottom: 5px;
     }
 
-    /* .header-superior img{
-        width:35%;
-    }
-
-    .barra{
-        width:35%;
-    }
-
-    .informacion{
-        width:35%;
-    } */
 
     .burger-menu {
         display: none;
@@ -495,9 +438,6 @@ footer {
         flex-wrap: wrap;
     }
 
-    /* .precio, .decuentos{
-        width: 50%;
-    } */
 }
 
 @media(min-width:769px){

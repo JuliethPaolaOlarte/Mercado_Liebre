@@ -8,11 +8,11 @@ app.get("/", function(req, res){
     res.sendFile(path.resolve(__dirname, "./src/views/home.html"))
 });
 
-app.get("/Ingresá ", function(req, res){
+app.get("/login.html", function(req, res){
     res.sendFile(path.resolve(__dirname, "src/views/login.html"))
 });
 
-app.get("/Creá tú cuenta", function(req, res){
+app.get("/register.html", function(req, res){
     res.sendFile(path.resolve(__dirname, "src/views/register.html"))
 });
 
