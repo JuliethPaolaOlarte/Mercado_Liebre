@@ -22,6 +22,9 @@ header img {
 
 .barra input{
     width: 80%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .barra{
@@ -32,8 +35,12 @@ header img {
 .barra button {
     padding-top: 2px;
     box-sizing: border-box;
-    width: 10%;
-    height: 10%;
+    /* width: 10%;
+    height: 10%; */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFF;
 }
 
 .logo-barra{
@@ -138,11 +145,9 @@ a {
     background-color: #0044AA;
     border-radius: 5px;
     color: #FFF;
-    font-size: 20px;
-    padding: 10px !important;
-    margin: 10px 0px 20px 0px !important;
-    width: 40px;
-    height: 40px;
+    font-size: 15px;
+    padding: 7px;
+    margin: 10px 0px 20px 0px;
 }
 
 .banner img {
@@ -224,6 +229,7 @@ main section article i {
     right: 20px;
     top: -15px;
     /* top: -15px; */
+    color: #39b54a;
 }
 
 main section article i {
@@ -274,12 +280,135 @@ footer {
     margin-top: 10px;
 }
 
-.pie-de-pagina {
+.pie-de-pagina i:hover{
+    color: #EAC926;;
+}
+
+/* .pie-de-pagina {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
 }
+ */
+.pie-de-pagina h3{
+    text-align: center;
+}
+
+.pie-de-pagina p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.pie-p{
+    padding: 2px;
+    margin: 5px 10px 5px 10px;
+}
+.derechos{
+    margin-top: 15px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 7px 0px 7px;
+    padding: 5px;
+}
+
+.datos2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 7px 7px 7px;
+    padding: 5px; 
+}
+.intereses{
+    margin: 5px 7px 7px 7px;
+    padding: 5px; 
+    text-align: left !important;
+}
+
+.profile{
+    margin: 5px 7px 7px 7px;
+    padding: 5px; 
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    padding: 10px;
+}
+
+.formulario input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.formulario button{
+    border: none;
+    color: white;
+    background-color: #0044AA;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.formulario button {
+    transition: transform 3s;
+}
+
+.formulario button:hover{
+    background-color: #0022AA;
+}
+
+.formulario-reg{
+    text-align: center;
+}
+
+.formulario-reg h4{
+    text-align: left !important;
+}
+
+.registrarse{
+    margin: 5px 7px 7px 7px;
+    padding: 5px; 
+}
+
+.registrarse input{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+}
+
+.botones button{
+    background-color: #0044AA;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin: 5px 7px 7px 7px; 
+}
+
+.botones h4{
+    text-align: center;
+    margin-left: 29px;
+}
+
+.intereses{
+    margin-left: 20px;
+}
+
+.intereses h4{
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
 
 @media(max-width: 360px) {
     .descripcion {
@@ -374,5 +503,11 @@ footer {
 @media(min-width:769px){
     main section article {
         width: 22%;
+    }
+
+    .pie-de-pagina{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
     }
 }
